@@ -4,6 +4,10 @@ var Schema = mongoose.Schema;
 
 
 var VehicleSchema = new Schema({
+    name : {
+        type: string,
+        require: true
+    },
     registration: {
         type: String,
         require: true,
