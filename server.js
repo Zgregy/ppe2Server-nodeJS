@@ -1,6 +1,6 @@
 var express = require('express'),
   app = express(),
-  port = process.env.PORT || 3000,
+  port = process.env.PORT || 8003,
   mongoose = require('mongoose'),
   moment = require('moment'),
   Vehicle = require('./api/models/vehicleModel'), //created model loading here
