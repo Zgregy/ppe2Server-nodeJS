@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 
 var VehicleSchema = new Schema({
     name : {
-        type: string,
+        type: String,
         require: true
     },
     registration: {
